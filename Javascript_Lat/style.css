@@ -1,0 +1,122 @@
+body {
+    background: linear-gradient(135deg, #9146ff 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+center {
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    max-width: 420px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.calculator-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #4a5568;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.form-floating {
+
+    text-align: left;
+}
+
+.form-control {
+    border-radius: 10px;
+    border: 2px solid #e2e8f0;
+    transition: all 0.3s ease;
+background-color: #f0f4f8;
+}
+
+.form-control:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.15);
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-grid .btn-reset {
+    grid-column: span 2;
+}
+
+.btn-calc {
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #ffffff;
+    transition: transform 0.1s ease, opacity 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-calc:hover {
+    opacity: 0.9;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.btn-calc:active {
+    transform: scale(0.97);
+}
+
+.btn-tambah {
+    background-color: #9146ff;
+}
+
+.btn-kurang {
+    background-color: #9146ff;
+}
+
+.btn-kali {
+    background-color: #9146ff;
+}
+
+.btn-bagi {
+    background-color: #9146ff;
+
+}
+
+.btn-Sisa_Bagi{
+    background-color: #9146ff;
+
+}
+.btn-Persen {
+    background-color: #9146ff;
+
+}
+
+.btn-reset {
+    background-color: #f56565;
+
+}
+
+.hasil-box {
+    background-color: #edf2f7;
+    border: 2px dashed #cbd5e0;
+    padding: 15px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2d3748;
+    margin-top: 15px;
+    letter-spacing: 0.5px;
+}
